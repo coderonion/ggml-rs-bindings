@@ -1,0 +1,16 @@
+[package]
+edition = { workspace = true }
+name = "ggml-rs-bindings"
+version = { workspace = true }
+
+[dependencies]
+num_cpus = "1.15.0"
+partial_sort = "0.2.0"
+rand = "0.8.5"
+reader = { path = "../reader" }
+
+thiserror = { workspace = true }
+
+[build-dependencies]
+bindgen = "0.65.1"
+cc = "1.0.79"

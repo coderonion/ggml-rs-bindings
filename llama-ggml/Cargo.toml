@@ -1,0 +1,13 @@
+[package]
+edition = { workspace = true }
+name = "llama-ggml"
+version = { workspace = true }
+
+[dependencies]
+bytemuck = "1.13.1"
+ggml-rs-bindings = { path = "../bindings" }
+memmap2 = "0.5.10"
+reader = { path = "../reader" }
+
+[dev-dependencies]
+rand = "0.8.5"

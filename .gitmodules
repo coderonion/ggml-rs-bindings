@@ -1,0 +1,3 @@
+[submodule "bindings/ggml"]
+	path = bindings/ggml
+	url = https://github.com/ggerganov/ggml

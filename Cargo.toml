@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "bindings",
+    "llama-ggml",
+    "reader",
+]
+
+[workspace.dependencies]
+thiserror = "1.0.40"
+
+[workspace.package]
+edition = "2021"
+version = "0.0.0"
